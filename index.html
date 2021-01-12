@@ -2,55 +2,51 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177249523-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-177249523-1');
-  </script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font awesome icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
+    <!-- Bootstrap styles -->
   <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Custop styles -->
   <link rel="stylesheet" href="css/style.css">
   <title>Andrey Lyamkin | Portfolio</title>
 </head>
 
 <body>
-  <!-- NAVIGATION SECTION -->
-
-  <nav id="main-nav" class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-  </nav>
-
-  <!-- ABOUT SECTION -->
+  <!-- HEADER SECTION -->
 
   <section id="about" class="about">
+    <div class="bg-primary-custom">
+      <div class="container-fluid">
+        <div class="row text-center text-white py-5">
+          
+            <div class="col-12 col-lg-6 order-lg-1"><h1 class="header-first">Andrey Lyamkin</h1></div>
+            <div class="col-12 col-lg-6 order-lg-4"><p class="header-secondary">Web Developer</p></div>
+            <div class="col-2 col-lg-3 offset-2 offset-lg-0 order-lg-0">
+                <a class="about-link about-link-1 d-flex" href="https://www.linkedin.com/in/andreylyamkin/" target="_blank">
+                    <i class="fab fa-linkedin icon-lg mr-1"></i><span class="d-none">My linkedIn</span>
+                  </a>
+              </div>
+              <div class="col-2 col-lg-3 order-lg-3"><a class="about-link about-link-2 d-flex"  href="https://github.com/lyamkin" target="_blank">
+                <i class="fab fa-github icon-lg mr-1"></i><span class="d-none">My gitHub</span>
+              </a></div>
+              <div class="col-2 col-lg-3 order-lg-2 "><a class="about-link about-link-3 d-flex justify-content-end" href="#contact">
+                <span class="d-none">andrew.lyamkin@gmail.com</span><i class="fas fa-envelope icon-lg ml-1"></i>
+              </a></div>
+              <div class="col-2 col-lg-3 order-lg-5"><a class="about-link about-link-4 d-flex justify-content-end" href="downloads/resume.pdf" download="Andrey-Lyamkin_resume">
+                <span class="d-none">Download CV</span><i class="fas fa-download icon-lg ml-1"></i> 
+              </a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ABOUT SECTION -->
+
+  <!-- <section id="about" class="about">
     <div class="bg-overlay text-white">
       <div class="container">
         <div class="row">
@@ -73,7 +69,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- PROJECTS SECTION -->
 

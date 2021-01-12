@@ -1,26 +1,14 @@
-.bg-overlay {
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    background-color: $color-background;
-    opacity: .8;
-}
-
 .bg-primary-custom {
-    background-color: $color-background;
-    opacity: .8;
+  background-color: $color-background;
 }
 
 .text-primary-custom {
-    color: $color-primary-light;
+  color: $color-primary-light;
 }
 
 .icon-lg {
-    font-size: 2.5rem;
+  font-size: 2rem;
 }
 .icon-md {
-    font-size: 2rem;
+  font-size: 1.5rem;
 }
-
