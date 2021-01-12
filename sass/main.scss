@@ -1,4 +1,16 @@
-$primary-color: red;
-h1 {
-  color: $primary-color;
-}
+@import "abstracts/variables.scss";
+@import "abstracts/mixins.scss";
+
+@import "layouts/navigation.scss";
+
+@import "components/card.scss";
+@import "components/buttons.scss";
+
+@import "base/base.scss";
+@import "base/typography.scss";
+@import "base/utilities.scss";
+
+
+@import "pages/home.scss"
+
+
