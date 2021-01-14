@@ -44,12 +44,10 @@ body {
 
 .header-secondary {
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 3px; }
 
 .header-first {
-  text-transform: uppercase;
   font-size: 2.5rem;
   letter-spacing: 3px;
   font-weight: 400; }
@@ -61,21 +59,27 @@ body {
   color: #6d8ba6; }
 
 .icon-lg {
-  font-size: 2rem; }
-
-.icon-md {
   font-size: 1.5rem; }
 
-.about-link:not(:last-child) {
+.icon-md {
+  font-size: 1rem; }
+
+.header-link:not(:last-child),
+.footer-link:not(:last-child) {
   margin-right: 1rem; }
-  .about-link:not(:last-child) span {
+  .header-link:not(:last-child) span,
+  .footer-link:not(:last-child) span {
     margin-left: 10px; }
 
-.about-link:link, .about-link:visited {
+.header-link:link, .header-link:visited,
+.footer-link:link,
+.footer-link:visited {
   color: #fff;
   text-decoration: none; }
 
-.about-link:hover, .about-link:active {
+.header-link:hover, .header-link:active,
+.footer-link:hover,
+.footer-link:active {
   text-shadow: 0 0.3rem 0.5rem rgba(255, 255, 255, 0.5);
   transition: all 0.2s; }
 
